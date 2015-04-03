@@ -27,7 +27,7 @@ app.get("/shorten", function(req, res) {
 var encrId = hashids.encode(data.id);
  var locals = {
     mySearchTerm: req.query.q,
-    encriptedUrl: "http://crownwiz.herokuapp.com/"+encrId
+    encriptedUrl: req.headers.host+"/"+encrId
   }
   data.set('lastName', encrId).save();
   // console.log("Orig:"+encrID+"new:"+encriptedUrl)
