@@ -5,7 +5,7 @@ var db = require("./models");
 var Hashids = require("hashids"),
     hashids = new Hashids("this is my salt");
 
-var router = require('./router');
+// var router = require('./router');
 
 var app = express();
 
