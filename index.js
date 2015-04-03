@@ -44,7 +44,6 @@ app.get("/:hash", function(req, res) {
 // var nameArray = data.map(function(u) { return u.firstName});
   res.redirect(data.firstName);
 // res.send(nameArray + " crazy thopluuussssss");
-  render
   })
 //   res.send(req.params.hash + " crazy tho");
 
