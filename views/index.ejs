@@ -1,0 +1,25 @@
+<% include partials/header %>
+
+
+<div class=container>
+ <h2> Enter your link to be shortened below:</h2>
+
+ <form class="form" action="/shorten" method="get">
+ <div class="form-group">
+ <label>---------------</label>
+   <input type="text" name="q" class="form-control" placeholder="Link goes here...">
+   </div>
+   <input type="submit" class="btn btn-warning" value="Shorten">
+ </form>
+
+  <!-- <form class="form" action="/food" method="post">
+ <div class="form-group">
+ <label>Save a food (POST)</label>
+   <input type="text" name="q" class="form-control" placeholder="Fav food">
+   </div>
+   <input type="submit" class="btn btn-warning" value="save food">
+ </form> -->
+ </div>
+ </body>
+
+ <% include partials/footer %>
